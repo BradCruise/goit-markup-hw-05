@@ -550,11 +550,6 @@ a.address-link:hover {
 
 }
 
-.projects-details {
-
-        padding: 32px 16px;
-}
-
 .projects-list {
 
         display: flex;
@@ -575,6 +570,8 @@ a.address-link:hover {
 
         position: relative;
         overflow: hidden;
+        width: 360px;
+        height: 300px;
 
 }
 
@@ -585,8 +582,6 @@ a.address-link:hover {
         height: 100%;
         width: 100%;
         padding: 40px;
-        padding-left: 32px;
-        padding-right: 32px;
 
         color: var(--CLOUD, #F4F4FD);
         font-size: 16px;
@@ -596,6 +591,7 @@ a.address-link:hover {
         letter-spacing: 0.32px;
 
         background-color: var(--iris);
+        opacity: 0.9;
         transform: translateY(100%);
         transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -615,6 +611,12 @@ a.address-link:hover {
         box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
         cursor: pointer;
 
+}
+
+.projects-details {
+
+        padding: 32px 16px;
+        
 }
 
 .projects-list-title {
@@ -739,7 +741,6 @@ a.address-link:hover {
         cursor: pointer;
 
         fill: var(--navy-blue);
-
 
 }
 
