@@ -123,7 +123,7 @@ button {
 
 }
 
-.nav-list-item:hover .nav-link:hover {
+.nav-list-item:hover .nav-link {
 
         color: var(--ocean);
 
@@ -132,6 +132,7 @@ button {
 .nav-link {
 
         color: var(--navy-blue);
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-link::after {
@@ -146,6 +147,8 @@ button {
 
         border-radius: 2px;
         background-color: var(--ocean);
+
+        transition: width 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -185,6 +188,7 @@ button {
 a.address-link:hover {
 
         color: var(--ocean);
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -236,10 +240,9 @@ a.address-link:hover {
 
 .hero-button:hover {
 
-        color: var(--white);
-        border-radius: 4px;
         background: var(--ocean, #404BBF);
-        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+
+        transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -410,6 +413,7 @@ a.address-link:hover {
 .team-icons:hover {
 
         background-color: var(--ocean);
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-media {
@@ -499,6 +503,7 @@ a.address-link:hover {
 .footer-icons:hover {
 
         background-color: var(--green);
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -541,6 +546,10 @@ a.address-link:hover {
         border-color: var(--ocean);
         background: var(--ocean);
         box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+
+        transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+        color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -611,6 +620,9 @@ a.address-link:hover {
         box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
         cursor: pointer;
 
+        transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+        border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .projects-details {
@@ -671,6 +683,9 @@ a.address-link:hover {
         color: var(--light-slate);
         height: 88px;
 
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .icons-list:hover {
@@ -687,6 +702,8 @@ a.address-link:hover {
         height: 88px;
 
         padding: 16px 32px;
+
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
