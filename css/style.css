@@ -774,6 +774,8 @@ a.address-link:hover {
 
         width: 8px;
         height: 8px;
+
+        fill: currentColor;
         
 }
 
@@ -781,7 +783,7 @@ a.address-link:hover {
 .modal-close:focus {
 
         background-color: var(--ocean);
-        fill: var(--white);
+        color: var(--white);
 
 }
 
